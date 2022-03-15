@@ -7,6 +7,14 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:text="TESTE GIT"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -33,6 +41,7 @@
         android:textColorLink="#00BCD4"
         app:layout_constraintBottom_toTopOf="@+id/textResultado"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -53,7 +62,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="71dp"
         android:layout_marginBottom="16dp"
-        android:text="APP feito em:14/03"
+        android:text="APP feito em:15/03"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

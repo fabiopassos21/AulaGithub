@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void sortearNumero(View view ){
         TextView texto = findViewById(R.id.textResultado);
         int x= new Random().nextInt(11);
-        texto.setText("SEU numero selecionado é  :"+x);
+git status        texto.setText("Seu numero selecionado é  :"+x);
 
     }
 
